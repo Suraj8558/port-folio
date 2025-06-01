@@ -1,30 +1,15 @@
-import { Github, Twitter, Figma } from "lucide-react";
+import { Github, Linkedin} from "lucide-react";
 
 import LogoJavascript from "/public/images/logos/icon-javascript.svg";
 import LogoTypescript from "/public/images/logos/icon-typescript.svg";
 import LogoReact from "/public/images/logos/icon-react.svg";
 import LogoNextjs from "/public/images/logos/icon-nextjs.svg";
-import LogoNodejs from "/public/images/logos/icon-nodejs.svg";
-import LogoExpress from "/public/images/logos/icon-express.svg";
-import LogoExpressLight from "/public/images/logos/icon-express-light.svg";
-import LogoNest from "/public/images/logos/icon-nest.svg";
-import LogoSocket from "/public/images/logos/icon-socket.svg";
-import LogoSocketLight from "/public/images/logos/icon-socket-light.svg";
-import LogoPostgreSQL from "/public/images/logos/icon-postgresql.svg";
-import LogoMongoDB from "/public/images/logos/icon-mongodb.svg";
 import LogoSass from "/public/images/logos/icon-sass.svg";
 import LogoTailwindcss from "/public/images/logos/icon-tailwindcss.svg";
-import LogoFigma from "/public/images/logos/icon-figma.svg";
-import LogoCypress from "/public/images/logos/icon-cypress.svg";
-import LogoCypressLight from "/public/images/logos/icon-cypress-light.svg";
-import LogoStorybook from "/public/images/logos/icon-storybook.svg";
+import LogoMaterialUI from "/public/images/logos/material-icon.svg";
 import LogoGit from "/public/images/logos/icon-git.svg";
+import LogoRWIT from "/public/images/company/RWlogo.svg";
 
-import LogoUpwork from "/public/images/logos/logo-upwork.svg";
-import LogoGreenApex from "/public/images/logos/logo-greenapex.svg";
-import LogoGreenApexLight from "/public/images/logos/logo-greenapex-light.svg";
-import LogoDotnpixel from "/public/images/logos/logo-dotnpixel.svg";
-import LogoDotnpixelLight from "/public/images/logos/logo-dotnpixel-light.svg";
 
 import ProjectFiskil from "/public/images/project-fiskil.png";
 import ProjectWingie from "/public/images/project-wingie.png";
@@ -42,12 +27,9 @@ import {
 } from "@/lib/types";
 
 export const EXTERNAL_LINKS = {
-  GITHUB: "https://github.com/",
-  GITHUB_REPO: "https://github.com/suraj.dev",
-  TWITTER: "https://twitter.com/",
-  FIGMA: "https://www.figma.com/@",
-  FIGMA_FILE:
-    "https://www.figma.com/community/file/1262992249991763120/Personal-Portfolio-Website-Template-%7C-Mobile-%26-Desktop",
+  GITHUB: "https://github.com/Suraj8558/",
+  GITHUB_REPO: "https://github.com/Suraj8558/web-portfolio",
+  Linkedin: "https://www.linkedin.com/in/suraj8558/",
 };
 
 export const NAV_LINKS = [
@@ -72,15 +54,11 @@ export const NAV_LINKS = [
 export const SOCIAL_LINKS = [
   {
     icon: Github,
-    url: "https://github.com/",
+    url: "https://github.com/Suraj8558",
   },
   {
-    icon: Twitter,
-    url: "https://twitter.com/",
-  },
-  {
-    icon: Figma,
-    url: "https://www.figma.com/@",
+    icon: Linkedin,
+    url: "https://www.linkedin.com/in/suraj8558/",
   },
 ];
 
@@ -105,38 +83,7 @@ export const TECHNOLOGIES: TechDetails[] = [
     logo: LogoNextjs,
     url: "https://nextjs.org/",
   },
-  {
-    label: "Node.js",
-    logo: LogoNodejs,
-    url: "https://nodejs.org/en",
-  },
-  {
-    label: "Express.js",
-    logo: LogoExpress,
-    darkModeLogo: LogoExpressLight,
-    url: "https://expressjs.com/",
-  },
-  {
-    label: "Nest.js",
-    logo: LogoNest,
-    url: "https://nestjs.com/",
-  },
-  {
-    label: "Socket.io",
-    logo: LogoSocket,
-    darkModeLogo: LogoSocketLight,
-    url: "https://socket.io/",
-  },
-  {
-    label: "PostgreSQL",
-    logo: LogoPostgreSQL,
-    url: "https://www.postgresql.org/",
-  },
-  {
-    label: "MongoDB",
-    logo: LogoMongoDB,
-    url: "https://www.mongodb.com/",
-  },
+
   {
     label: "Sass/Scss",
     logo: LogoSass,
@@ -148,20 +95,9 @@ export const TECHNOLOGIES: TechDetails[] = [
     url: "https://tailwindcss.com/",
   },
   {
-    label: "Figma",
-    logo: LogoFigma,
-    url: "https://www.figma.com/",
-  },
-  {
-    label: "Cypress",
-    logo: LogoCypress,
-    darkModeLogo: LogoCypressLight,
-    url: "https://www.cypress.io/",
-  },
-  {
-    label: "Storybook",
-    logo: LogoStorybook,
-    url: "https://storybook.js.org/",
+    label: "MUI",
+    logo: LogoMaterialUI,
+    url: "https://mui.com/",
   },
   {
     label: "Git",
@@ -172,41 +108,31 @@ export const TECHNOLOGIES: TechDetails[] = [
 
 export const EXPERIENCES: ExperienceDetails[] = [
   {
-    logo: LogoUpwork,
-    logoAlt: "Upwork logo",
-    position: "Independent Freelancer",
-    startDate: new Date(2021, 10),
+    logo: LogoRWIT, // Replace with actual import
+    logoAlt: "RW Infotech logo",
+    position: "Frontend Developer",
+    startDate: new Date(2023, 3), // April 2023
     currentlyWorkHere: true,
     summary: [
-      "Worked for various clients like Fiskil, Shosho, Crowe MacKay LLP.",
-      "Worked with a variety of technologies, including React, Next.js, Typescript, Express.js, PostgreSQL, Tailwindcss, Mui, Firebase, Storybook, Cypress, and others.",
+      "Delivered high-quality, end-to-end web solutions for diverse clients using React, Next.js, and modern toolsets.",
+      "Mentored and guided junior developers to enhance their technical skills and code quality.",
+      "Collaborated on real-time platforms like Airdna.co, focusing on UI components and performance.",
     ],
   },
   {
-    logo: LogoGreenApex,
-    darkModeLogo: LogoGreenApexLight,
-    logoAlt: "Greenapex logo",
-    position: "Team Lead",
-    startDate: new Date(2017, 6),
-    endDate: new Date(2021, 9),
+    logo: LogoRWIT, // Same logo used
+    logoAlt: "RW Infotech logo",
+    position: "Junior Frontend Developer",
+    startDate: new Date(2022, 3), // April 2022
+    endDate: new Date(2023, 2), // March 2023
     summary: [
-      "Acted as team lead in different projects.",
-      "Brainstormed new ideas & gathered requirements for internal projects.",
-      "Designed architecture of different projects (frontend + backend).",
-      "Worked on enterprise-level projects for a variety of clients.",
-      "Handled sprint planning & task distribution.",
+      "Built responsive and scalable frontend applications with modern frameworks like Nuxt.js and Next.js.",
+      "Worked on diverse client projects, integrating headless CMS platforms like Prismic and Storyblok.",
+      "Ensured performance optimization and cross-device compatibility.",
     ],
-  },
-  {
-    logo: LogoDotnpixel,
-    darkModeLogo: LogoDotnpixelLight,
-    logoAlt: "Dotnpixel logo",
-    position: "Full Stack Developer",
-    startDate: new Date(2015, 11),
-    endDate: new Date(2017, 4),
-    summary: ["Worked as a full stack developer (React / Laravel)."],
   },
 ];
+
 
 export const PROJECTS: ProjectDetails[] = [
   {
