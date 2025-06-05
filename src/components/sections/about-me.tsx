@@ -63,32 +63,15 @@ const AboutMeSection = () => {
           </Typography>
 
           <Typography>
-            Outside of work, I enjoy exploring startup journeys on Indie
-            Hackers, following dev trends on Twitter, and contributing on
-            GitHub. You can connect with me on{" "}
-            <Link
-              noCustomization
-              externalLink
-              withUnderline
-              href={EXTERNAL_LINKS?.Linkedin}
-            >
-              LinkedIn
-            </Link>
-            or see my work on
-            <Link
-              noCustomization
-              externalLink
-              withUnderline
-              href={EXTERNAL_LINKS.GITHUB}
-            >
-              GitHub
-            </Link>
-            .
+            Receiving the <strong>Outstanding Mentorship Award (2025)</strong>{" "}
+            is a deeply meaningful moment for me — a recognition of the shared
+            growth, trust, and collaboration that define our culture at RW
+            Infotech.
           </Typography>
 
           <Typography>Quick bits about me:</Typography>
 
-          <div className="flex flex-col gap-2 md:flex-row md:gap-6">
+          <div className="flex">
             <ul className="flex list-inside list-disc flex-col gap-2">
               <Typography component="li">
                 Master’s in Computer Applications (LPU)
@@ -96,13 +79,8 @@ const AboutMeSection = () => {
               <Typography component="li">
                 Frontend Developer @ RW Infotech
               </Typography>
-            </ul>
-            <ul className="flex list-inside list-disc flex-col gap-2">
               <Typography component="li">
                 Mentor to junior developers
-              </Typography>
-              <Typography component="li">
-                Avid learner & aspiring indie hacker
               </Typography>
             </ul>
           </div>

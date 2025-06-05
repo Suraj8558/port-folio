@@ -9,9 +9,9 @@ import Footer from "@/components/layout/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
-const title = "surajShah | Full Stack Developer From Ahmedabad, India.";
+const title = "suraj kumar | Frontend Developer From Mohali, India.";
 const description =
-  "A self-proclaimed designer who specializes in full stack development (React.js & Node.js), from Ahmedabad, India.";
+  "Frontend developer from Mohali, India, specializing in building modern, high-performance web applications using React.js and Next.js — combining design sense with development expertise.";
 const url = "https:/suraj.dev";
 
 export const metadata: Metadata = {
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     "React Developer",
     "Next.js Developer",
   ],
-  creator: "surajShah",
+  creator: "suraj kumar",
   themeColor: [
     { media: "(prefers-color-scheme: light)", color: "white" },
     { media: "(prefers-color-scheme: dark)", color: "black" },
